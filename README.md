@@ -1,5 +1,18 @@
 # Doc:
 - https://create-react-app.dev/docs/adding-typescript/
+
+## Description:
+1. 登录注册功能
+2. 
+
+## Enevment:
+- node: v16.20.0
+- yarn 
+- yarn start
+
+- yarn add react-router-dom
+
+
 ### Install:
 ```shell
 npx create-react-app my-app --template typescript
