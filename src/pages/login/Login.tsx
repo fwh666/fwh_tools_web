@@ -38,6 +38,16 @@ const Input = styled.input`
   border-radius: 4px;
 `;
 
+const Label = styled.label`
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+`;
+
+const Checkbox = styled.input`
+  margin-right: 0.5rem;
+`;
+
 const Button = styled.button`
   padding: 0.5rem;
   border: none;
@@ -55,6 +65,7 @@ const Error = styled.p`
 function Login() {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
+    const [rememberMe, setRememberMe] = useState(false);
     const [error, setError] = useState('');
 
     const handleSubmit = (e: any) => {
@@ -62,6 +73,7 @@ function Login() {
         // TODO: 处理登录逻辑
         if (username === 'admin' && password === 'admin') {
             console.log('登录成功');
+            console.log('rememberMe:', rememberMe);
         } else {
             setError('用户名或密码不正确');
         }
@@ -84,6 +96,14 @@ function Login() {
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
                     />
+                    <Label>
+                        <Checkbox
+                            type="checkbox"
+                            checked={rememberMe}
+                            onChange={(e) => setRememberMe(e.target.checked)}
+                        />
+                        记住我
+                    </Label>
                     {error && <Error>{error}</Error>}
                     <Button type="submit">登录</Button>
                 </Form>
@@ -92,72 +112,8 @@ function Login() {
     );
 }
 
-function Register() {
-    const [username, setUsername] = useState('');
-    const [password, setPassword] = useState('');
-    const [confirmPassword, setConfirmPassword] = useState('');
-    const [error, setError] = useState('');
-
-    const handleSubmit = (e: any) => {
-        e.preventDefault();
-        // TODO: 处理注册逻辑
-        if (username && password && password === confirmPassword) {
-            console.log('注册成功');
-        } else {
-            setError('请填写正确的用户名和密码，并确认密码');
-        }
-    };
-
-    return (
-        <Container>
-            <Card>
-                <Title>注册</Title>
-                <Form onSubmit={handleSubmit}>
-                    <Input
-                        type="text"
-                        placeholder="用户名"
-                        value={username}
-                        onChange={(e) => setUsername(e.target.value)}
-                    />
-                    <Input
-                        type="password"
-                        placeholder="密码"
-                        value={password}
-                        onChange={(e) => setPassword(e.target.value)}
-                    />
-                    <Input
-                        type="password"
-                        placeholder="确认密码"
-                        value={confirmPassword}
-                        onChange={(e) => setConfirmPassword(e.target.value)}
-                    />
-                    {error && <Error>{error}</Error>}
-                    <Button type="submit">注册</Button>
-                </Form>
-            </Card>
-        </Container>
-    );
-}
-
 function LoginPage() {
-    const [isLogin, setIsLogin] = useState(false);
-
-    return (
-        <div>
-            {isLogin ? <Login /> : <Register />}
-            <div style={{ textAlign: 'center', marginTop: '1rem' }}>
-                {isLogin ? (
-                    <>
-                        没有账号？<a href="#" onClick={() => setIsLogin(false)}>注册</a>
-                    </>
-                ) : (
-                    <>
-                        已有账号？<a href="#" onClick={() => setIsLogin(true)}>登录</a>
-                    </>
-                )}
-            </div>
-        </div>
-    );
+    return <Login />;
 }
 
 export default LoginPage;
