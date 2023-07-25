@@ -1,15 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import LoginPage from './pages/login/Login';
+import RegisterPage from './pages/register/register';
 import reportWebVitals from './reportWebVitals';
+import LoginForm from './pages/register/register';
+import Home from './pages/web02/Home';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <LoginPage />
+    <Home />
   </React.StrictMode>
 );
 

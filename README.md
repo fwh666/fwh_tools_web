@@ -5,12 +5,24 @@
 1. 登录注册功能
 2. 
 
+## TODO:
+1. 样式调整
+2. 登录数据存储
+3. 邮箱登录|微信登录| 验证码功能| 手机号验证码
+4. 主页工具集合：
+5. 核心工具：copy小功能点，IP网络，json转换，网络测速，站长之家，ChatGPT相关
+6. 邀请推广功能
+7. 
+
 ## Enevment:
 - node: v16.20.0
 - yarn 
 - yarn start
 
 - yarn add react-router-dom
+
+### 框架：
+- React+TypeScript
 
 
 ### Install:

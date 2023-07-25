@@ -1,0 +1,32 @@
+import React from "react";
+import "./register.css";
+import { Button, Input } from "antd";
+
+function RegisterPage() {
+    return (
+        // <div className="login-content" id="login-wrap">
+        //     <h1>test</h1>
+        //     <Input >用户名</Input>
+        //     <Input >密码</Input>
+        //     <Button>登录</Button>
+        //     <Button>忘记密码</Button>
+        //     <Button>立即注册</Button>
+        //     <span>第三方登录</span>
+        //     <div className="third-login-box">
+        //         <span>微信</span>
+        //         <span>QQ</span>
+        //     </div>
+        // </div>
+        <div className="login-wrap">
+            <div className="login-content">
+                <div className="login-logo">
+                    图片
+                </div>
+            </div>
+        </div>
+
+
+
+    )
+}
+export default RegisterPage;
