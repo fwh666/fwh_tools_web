@@ -1,0 +1,42 @@
+import { Input } from "antd";
+import React from "react";
+import './passlogin.css'
+
+export default function LoginPage() {
+    return (
+        <>
+            <div className="login-box module-l-static" style={{ height: 548 }} id="login-box">
+
+                <div className="login-switch">
+                    <div className="icon-l static-l"><i>扫码登录更方便</i></div>
+                    <div className="icon-l quick-l"></div>
+                </div>
+                <div className="l-static">
+                    <div className="l-tab-covers">
+                        <div className="l-tab-list">短信登录</div>
+                        <div className="l-tab-list current" data-immersive-translate-effect="1"
+                            data-immersive_translate_walked="8177cdd5-e4b1-4c11-a23e-8afb89e0206c">密码登录</div>
+                    </div>
+                    <div className="static-module-covers">
+                        <div className="sms-login-covers" style={{ display: 'none' }}>
+                            <div className="error-tips hide" id="sms-error-tips" style={{ display: 'none' }}>
+                                <span className="ipt-tips-default ipt-default-current js-err-l"></span>
+                            </div>
+                            <div className="l-phone-div js-phone-div">
+                                <div className="country-phone-covers">
+                                    <span className="phone-area-code-ipt" id="country-area-code">+86</span>
+                                    <input type="hidden" name="countryCode" value="+86" id="country-code-ipt" />
+                                    <Input type="text" id="sms-phone" placeholder="手机号" autoComplete="off" maxLength={20}
+                                        className="text-style ipt-area-current"></Input>
+
+                                    <Input type="text" id="username" placeholder="手机号、邮箱" className="text-style ipt-default-current"></Input>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
+    );
+}

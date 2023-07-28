@@ -1,0 +1,196 @@
+<div class="login-box module-l-static" style="height:548px" id="login-box">
+
+    <div class="login-switch">
+        <div class="icon-l static-l"><i>扫码登录更方便</i></div>
+        <div class="icon-l quick-l"></div>
+    </div>
+
+    <div class="l-static">
+        <div class="l-tab-covers">
+            <div class="l-tab-list">短信登录</div>
+            <div class="l-tab-list current" data-immersive-translate-effect="1"
+                data-immersive_translate_walked="8177cdd5-e4b1-4c11-a23e-8afb89e0206c">密码登录</div>
+        </div>
+        <div class="static-module-covers">
+            <div class="sms-login-covers" style="display: none;">
+                <div class="error-tips hide" id="sms-error-tips" style="display: none;">
+                    <span class="ipt-tips-default ipt-default-current js-err-l"></span>
+                </div>
+                <div class="l-phone-div js-phone-div">
+                    <div class="country-phone-covers">
+                        <span class="phone-area-code-ipt" id="country-area-code">+86</span>
+                        <input type="hidden" name="countryCode" value="+86" id="country-code-ipt">
+                        <input type="text" id="sms-phone" placeholder="手机号" autocomplete="off" maxlength="20"
+                            class="text-style ipt-area-current">
+                    </div>
+                </div>
+                <div id="dom_id" style="margin-bottom:20px;" class="nc-container" data-nc-idx="2">
+                    <div id="nc_1_wrapper" class="nc_wrapper">
+                        <div id="nc_1_n1t" class="nc_scale">
+                            <div id="nc_1__bg" class="nc_bg"></div>
+                            <span id="nc_1_n1z" class="nc_iconfont btn_slide"></span>
+                            <div id="nc_1__scale_text" class="scale_text slidetounlock"><span class="nc-lang-cnt"
+                                    data-nc-lang="_startTEXT">请按住滑块，拖动到最右边</span></div>
+                            <div id="nc_1_clickCaptcha" class="clickCaptcha">
+                                <div class="clickCaptcha_text">
+                                    <b id="nc_1__captcha_text" class="nc_captch_text"></b>
+                                    <i id="nc_1__btn_2" class="nc_iconfont nc_btn_2 btn_refresh"></i>
+                                </div>
+                                <div class="clickCaptcha_img"></div>
+                                <div class="clickCaptcha_btn"></div>
+                            </div>
+                            <div id="nc_1_imgCaptcha" class="imgCaptcha">
+                                <div class="imgCaptcha_text"><input id="nc_1_captcha_input" maxlength="6" type="text"
+                                        style="ime-mode:disabled"></div>
+                                <div class="imgCaptcha_img" id="nc_1__imgCaptcha_img"></div>
+                                <i id="nc_1__btn_1" class="nc_iconfont nc_btn_1 btn_refresh"
+                                    onclick="document.getElementById('nc_1__imgCaptcha_img').children[0].click()"></i>
+                                <div class="imgCaptcha_btn">
+                                    <div id="nc_1__captcha_img_text" class="nc_captcha_img_text"></div>
+                                    <div id="nc_1_scale_submit" class="nc_scale_submit"></div>
+                                </div>
+                            </div>
+                            <div id="nc_1_cc" class="nc-cc"></div>
+                            <i id="nc_1__voicebtn" tabindex="0" role="button" class="nc_voicebtn nc_iconfont"
+                                style="display:none"></i>
+                            <b id="nc_1__helpbtn" class="nc_helpbtn"><span class="nc-lang-cnt"
+                                    data-nc-lang="_learning">了解新功能</span></b>
+                        </div>
+                        <div id="nc_1__voice" class="nc_voice"></div>
+                    </div>
+                </div>
+                <div class="l-sms-code js-ipt-h" style="display: none;">
+                    <input type="text" autocomplete="off" class="text-style ipt-short-current" id="sms-cd">
+                    <input type="button" class="btn-disabled sms-cd-btn" id="sms-send-cd-btn" value="发送验证码"
+                        disabled="disabled">
+                    <span class="n-receive-cd js-no-ver-code">没收到验证码？</span>
+                </div>
+                <div class="login">
+                    <!--  btn-disabled  btn-default-main -->
+                    <input type="button" id="sms-login-sub" class="btn-current-big btn-disabled" value="登录/注册"
+                        disabled="">
+                    <!-- <input type="button" id="" class="btn-current-big btn-default-main loadding-btn hi-de" value="登录中..."> -->
+                </div>
+                <div class="auto-login">
+
+                    <label class="auto-login-cd">
+                        <input type="checkbox" name="autolog" id="autolog" checked=""
+                            class="auto-login-cd">下次自动登录</label>
+
+                    <div class="login-links">
+                        <a href="//passport.zcool.com.cn/getpassword.do?appId=1006" target="_blank" class="">忘记密码</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="pass-login-covers hide" style="display: block;">
+                <div class="error-tips hide" id="pass-error-tips">
+                    <span class="ipt-tips-default ipt-default-current js-err-l"></span>
+                </div>
+                <div class="email">
+                    <!-- <input type="text" style="display:none;"> -->
+                    <input type="text" id="username" placeholder="手机号/邮箱" class="text-style ipt-default-current"
+                        onfocus="document.getElementById('password').type='password'">
+                </div>
+                <div class="password">
+                    <!-- <input type="password" style="display:none;"> -->
+                    <input type="text" id="password" placeholder="密码" maxlength="40" autocomplete="off"
+                        class="text-style ipt-default-current" onfocus="this.type='password'">
+                </div>
+                <div class="code hide" id="l-image-code">
+                    <input type="text" id="ipt-code" class="text-style ipt-code" value=""><img src="" id="randomCodeImg"
+                        width="180" height="44" onclick="loadRandomCodeImg()" alt=""><i
+                        class="js-image-code-tips code-wrong"></i>
+                </div>
+                <!-- <div class="forget-password">
+                <a href="javascript:;">忘记密码</a>
+            </div> -->
+
+                <div class="login">
+                    <!--  btn-disabled  btn-default-main -->
+                    <input type="button" id="loginbtn" class="btn-current-big btn-disabled" value="登录">
+                    <input type="button" id="" class="btn-current-big btn-default-main loadding-btn hide"
+                        value="登录中...">
+                </div>
+                <div class="auto-login">
+
+                    <label class="auto-login-cd">
+                        <input type="checkbox" name="autolog" id="autolog" checked=""
+                            class="auto-login-cd">下次自动登录</label>
+
+                    <div class="login-links">
+                        <a href="//passport.zcool.com.cn/getpassword.do?appId=1006" target="_blank" class="">忘记密码</a>
+
+                        &nbsp; | &nbsp;<a
+                            href="//passport.zcool.com.cn/regPhone.do?appId=1006&amp;cback=https://www.zcool.com.cn/"
+                            target="_blank" class="">注册</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="third-login-box" style="bottom:140px">
+            <p class="third-account">第三方账号登录</p>
+            <div class="account-login">
+                <a data-href="/thirdlogin/wechat.do?appId=1006&amp;cback=https://www.zcool.com.cn/"
+                    class="wechat-login"></a>
+                <a data-href="/thirdlogin/wb.do?appId=1006&amp;cback=https://www.zcool.com.cn/" class="weibo-login"></a>
+                <a data-href="/thirdlogin/qq.do?appId=1006&amp;cback=https://www.zcool.com.cn/" class="qq-login"></a>
+            </div>
+        </div>
+
+    </div>
+    <div class="l-quick">
+        <div class="l-title-covers">
+            <div class="l-title-h2">微信二维码登录</div>
+        </div>
+        <div class="er-cd-covers">
+            <div class="" id="login_container">
+
+            </div>
+        </div>
+        <div class="wx_login_links">
+            <a href="javascript:;" class="pass-login-tab">密码登录</a> &nbsp;|&nbsp; <a
+                href="/regPhone.do?appId=1006&amp;cback=https://www.zcool.com.cn/" target="_blank">注册新账号</a>
+        </div>
+    </div>
+
+
+    <div class="tip_button"
+        style="position: absolute; color: rgb(153, 153, 153); font-size: 10px; width: 336px; display: none;">
+        <div id="checkTipDiv">
+            <p>未注册手机验证后自动登录，登录或注册即代表同意
+                <a target="_blank" href="//www.zcool.com.cn/userAgreement">
+                    <span style="color:#ff7300;padding: 0 4px">用户协议</span>
+                </a>和
+                <a href="//www.zcool.com.cn/policy" target="_blank">
+                    <span style="color:#ff7300;padding: 0 4px">隐私政策</span>
+                </a>
+            </p>
+        </div>
+        <p style="margin-top: 5px">未满18周岁未成年人请勿自行注册，其注册、登录账号及使用服务需征得监护人同意</p>
+    </div>
+
+
+
+    <div class="tip_pass"
+        style="position: absolute; color: rgb(153, 153, 153); font-size: 10px; width: 336px; display: block;">
+        <div id="checkTipDiv">
+            <p>登录或注册即代表同意
+                <a target="_blank" href="//www.zcool.com.cn/userAgreement">
+                    <span style="color:#ff7300;padding: 0 4px">用户协议</span>
+                </a>和
+                <a href="//www.zcool.com.cn/policy" target="_blank">
+                    <span style="color:#ff7300;padding: 0 4px">隐私政策</span>
+                </a>
+            </p>
+        </div>
+        <p class="tip" style="margin-top: 5px">未满18周岁未成年人请勿自行注册，其注册、登录账号及使用服务需征得监护人同意</p>
+    </div>
+
+
+    <!-- <p class="member-login">会员登录</p> -->
+
+
+</div>
