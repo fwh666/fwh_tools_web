@@ -3,13 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 // import LoginPage from './pages/login/Login';
-import Demo from './pages/demo/demo';
+// import Demo from './pages/demo/basic/demo';
+import DemoStag from './pages/demo/staging/demo';
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <Demo />
+    {/* <Demo /> */}
+    <DemoStag />
   </React.StrictMode>
 );
 
