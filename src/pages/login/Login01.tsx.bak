@@ -1,0 +1,243 @@
+
+// export default function LoginPage01(){
+//     const test=()=>{
+//         var _vds = _vds || [];
+//         window._vds = _vds;
+//         (function(){
+//           _vds.push(['setAccountId', 'bd647439edc1d679']);
+//           _vds.push(['trackBot', false]);
+//           (function() {
+//             var vds = document.createElement('script');
+//             vds.type='text/javascript';
+//             vds.async = true;
+//             vds.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'dn-growing.qbox.me/vds.js';
+//             var s = document.getElementsByTagName('script')[0];
+//             s.parentNode.insertBefore(vds, s);
+//           })();
+//         })();
+//     }
+// <script type='text/javascript'>
+     
+//   </script>
+//     return(
+
+//     )
+// }
+
+
+// <!DOCTYPE HTML>
+// <html>
+// <head>
+// <title>用户登录-通行证-站酷ZCOOL</title>
+
+
+// <meta charset="utf-8">
+// <meta name="renderer" content="webkit|ie-comp|ie-stand">
+// <meta http-equiv="X-UA-Compatible" content="IE=edge">
+// <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+// <LINK rel="Bookmark" href="/favicon.ico" >
+// <LINK rel="Shortcut Icon" href="/favicon.ico" />
+// <link href="//static.zcool.cn/v1.1.94/passport4.0/css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css" />
+// <link href="//static.zcool.cn/v1.1.94/passport4.0/common/css/common.css" rel="stylesheet" type="text/css" />
+
+
+  	
+    
+    
+    
+    
+    
+//     	<link href="//static.zcool.cn/v1.1.94/passport4.0/css/passnumberbind.css" rel="stylesheet" type="text/css" />
+    
+
+
+
+// <style>
+// #nc_1_captcha_input {border: solid 1px #999;}
+
+// </style>
+
+
+// <script type='text/javascript'>
+//       var _vds = _vds || [];
+//       window._vds = _vds;
+//       (function(){
+//         _vds.push(['setAccountId', 'bd647439edc1d679']);
+//         _vds.push(['trackBot', false]);
+//         (function() {
+//           var vds = document.createElement('script');
+//           vds.type='text/javascript';
+//           vds.async = true;
+//           vds.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'dn-growing.qbox.me/vds.js';
+//           var s = document.getElementsByTagName('script')[0];
+//           s.parentNode.insertBefore(vds, s);
+//         })();
+//       })();
+//   </script>
+
+// </head>
+// <body>
+  	
+      
+      
+      
+      
+//         	  <div class="pass-main-body" style="background-image:url(//static.zcool.cn/passport4.0/images/login-tn.jpg)">
+      
+  
+// 	<input type="hidden" id="thirdLogin" name="thirdLogin" value=""/>
+// 	<div class="pass-header-wrap">
+		
+
+
+// <div class="login-passcard-nav">
+  	
+    
+    
+    
+//       <a href="//www.zcool.com.cn/" class="login-zcool-logo"></a>
+//       通行证
+    
+  
+// </div>
+
+
+
+
+// 	</div>
+	
+	  	
+      
+	    
+      
+	    
+		
+      
+     
+	    
+// 	    	<div class="login-logo" >
+// 		        <a href="https://www.zcool.com.cn" class="zcool-logo"><img src="//static.zcool.cn/passport4.0/images/svg/zcool_logo.svg"></a>
+// 		        <br>
+// 		       	 登录站酷网，与1600万+ 名设计创意人一起交流设计、分享快乐吧！
+// 		    </div>
+	    
+	  
+	
+	
+// 	<!-- 通行证默认登录页面 -->
+// 	<div  class="login-div-box"
+            
+                
+//                     style="height:608px"
+                
+                
+            
+//              >
+// 		<iframe allowTransparency="true" id="loginChild" name="loginChild" scrolling="no" src="./login.do?appId=1006&appLogin=https://www.zcool.com.cn/login_cb&cback=https://www.zcool.com.cn/&thirdLogin=&regCback=&regFrom=" style="background-color:transparent" marginwidth="0" frameborder="0" width="400" height="608"></iframe>
+		
+// 	</div>
+	
+// 	<!-- iframe方式引用通行证登录框页面 -->
+//   <div class="login-imgsource">
+    	
+      
+      
+      
+      
+      
+//         <a href="https://www.zcool.com.cn/u/15035330" target="_blank">图片来自特浓TN </a>
+      
+    
+//   </div>
+	
+
+// <div class="footer">
+// 	<p style="margin: 10px 0 5px;color:#ffffff">京ICP备11017824号-4 / 京ICP证130164号 北京市公安局朝阳分局备案编号:110105000501</p>
+// 	<p style="color:#ffffff">Copyright © 2006-2023 ZCOOL <a href="javascript:;" onclick="doChangeLang('zh')">中文</a> <a href="javascript:;" onclick="doChangeLang('en')">English</a></p>
+// </div>
+// <script type="text/javascript">
+// var jsMsg = new Object();
+// jsMsg.msg0='用户名，2~8个汉字/4~16个字符';
+// jsMsg.msg1='请输入正确的手机号码';
+// jsMsg.msg2='密码长度8-20位';
+// jsMsg.msg4='验证码不正确';
+// jsMsg.msg5='请输入正确的邮箱地址';
+// jsMsg.msg6='请输入验证码';
+// jsMsg.msg7='两次密码输入不一致';
+// jsMsg.msg8='大写字母、小写字母、数字和标点符号至少包含2种';
+// jsMsg.msg9='请勾选';
+// jsMsg.msg10='请填写名字';
+// jsMsg.msg11='请输入你的手机号';
+// jsMsg.msg12='请填写账号';
+// jsMsg.msg13='账号不存在';
+// jsMsg.alertCheckEmail='邮箱已注册';
+// jsMsg.alertCheckPass='请完成验证';
+// jsMsg.htmlUpdateUname='注：每60天可修改一次用户名';
+// jsMsg.htmlPhoneReg='该手机号已注册';
+// jsMsg.htmlEmailReg='该邮箱已注册';
+// jsMsg.htmlBindAccount='去绑定已有账号';
+// jsMsg.confirmTipVioce='点击发送获取语音验证码';
+// jsMsg.randomUserName='系统将自动为你生成随机用户名';
+// jsMsg.btnSend='发送';
+// jsMsg.btnConfirm='确定';
+// jsMsg.btnCancel='取消';
+// jsMsg.phoneLogin='直接登录';
+// jsMsg.enterpass='请输入密码';
+// jsMsg.htmlPhoneReg2='你可以';
+// jsMsg.btnJump='确认跳过';
+// jsMsg.btnNoJump='不跳过';
+// jsMsg.popCopyTitle='跳过此步骤';
+// jsMsg.btnRegister='注册中…';
+// jsMsg.btnSubmiting='提交中…';
+// jsMsg.oldPhoneEmpty='原手机号不能为空';
+
+// </script>
+	
+// <script type="text/javascript" src="//static.zcool.cn/v1.1.94/passport4.0/lib/jquery-1.9.1.min.js"></script>
+// <script type="text/javascript" src="//static.zcool.cn/v1.1.94/passport4.0/lib/jquery.mCustomScrollbar.js"></script>
+// <script type="text/javascript" src="//static.zcool.cn/v1.1.94/passport4.0/script/Verification.js"></script>
+// <script type="text/javascript" src="//static.zcool.cn/v1.1.94/passport/scripts/passport-v1.0.7.js"></script>
+
+// <script>
+// var _hmt = _hmt || [];
+// (function() {
+//   var common_appId = 1006;
+//   var app_host = 'https://www.zcool.com.cn';
+//   var hm = document.createElement("script");
+//   hm.src = "https://hm.baidu.com/hm.js?eb739bb878f02b4f7b5352a0f4fea15c";
+//   var s = document.getElementsByTagName("script")[0]; 
+//   s.parentNode.insertBefore(hm, s);
+  
+//   $('#logout').on('click', function() {
+// 	  $.ajax({
+// 			url : "/logout.do?appId="+common_appId,
+// 			type : "get",
+// 			success : function(data) {
+// 				var passportHost = window.location.host;
+// 				 $z.logoutAppOne(passportHost);
+// 				 $z.logoutAppThree(passportHost);
+// 				 $z.logoutAppGogoup(passportHost);
+// 				 $z.logoutProHellorf(passportHost);
+// 				 $z.logoutHellorfPre(passportHost);
+// 				 $z.logoutZDo(passportHost);
+// 				 setTimeout(function(){
+//            window.location.href = (common_appId === 10145 || common_appId === 10143) ? '//passport.zcool.com.cn/loginApp.do?appId=' + common_appId : app_host;
+// 				 },1000);
+// 			}
+// 		})
+// 	});
+// })();
+// function doChangeLang(locale){
+// 	$.get("/change_lang.do?locale="+locale);
+// 	$.getJSON("http://www.zcool.com.cn/setting/u_lang?l="+locale+"&callback=?");
+// 	$.getJSON("http://www.test.zcool.com.cn/setting/u_lang?l="+locale+"&callback=?");
+// 	window.location.href = window.location.href.replace('locale=_en','').replace('locale=_zh','').replace('#','');
+// 	//$.getJSON("http://dev.passport.zcool.com.cn/change_lang.do?locale=en&callback=?");
+// }
+// </script>
+
+	
+// </div>
+
+// </body>
+// </html>
