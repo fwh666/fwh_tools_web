@@ -2,15 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import LoginPage from './pages/login/Login';
-import Weather from './pages/demo/state';
+// import LoginPage from './pages/login/Login';
+import Demo from './pages/demo/demo';
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <Weather/>
-    <LoginPage />
+    <Demo />
   </React.StrictMode>
 );
 
