@@ -16,6 +16,7 @@ export default class Footer extends Component {
     return (
       <>
         <div>
+        <h1>Flooter</h1>
           <label>
             <input type='checkbox' onChange={this.handleCheckAll} checked={doneCount === total && total !== 0 ? true : false}/>
           </label>
